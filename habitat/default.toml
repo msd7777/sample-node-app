@@ -3,5 +3,13 @@
 #
 # To learn more about Habitat's configuration features, see the docs at
 # https://www.habitat.sh/docs/developing-packages/#add-configuration.
+    [server]
+    port = 8000
+    host = "ec2-54-86-150-206.compute-1.amazonaws.com"
+ 
+    [ssl]
+    port = 443
+
 
 title = "Habitat - The fastest path from code to cloud native."
+
