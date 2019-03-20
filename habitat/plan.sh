@@ -16,6 +16,12 @@ pkg_name=sample-node-app
 pkg_origin=msd95
 pkg_version="1.1.0"
 pkg_deps=(core/node)
+pkg_exports=(
+  [port]=server.port
+  [host]=server.host
+  [ssl-port]=ssl.port
+)
+
 
 # Habitat provides you with a number of built-in "callbacks" to use
 # in the course of your build, all of which are explained in the docs
